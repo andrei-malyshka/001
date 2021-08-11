@@ -19,6 +19,6 @@ Then the page with the URL 'https://trello.com/create-first-team' is loaded
 
 
 Examples:
-|email										|name								|password|
+|email										|name								     |password|
 |#{generate(regexify '[a-z]{5}')}@mail.test |#{generate(regexify '[A-Z]{1}[a-z]{5}')}|#{generate(regexify '[0-9]{5}[a-z]{5}')}|	
 |#{generate(regexify '[a-z]{5}')}@mail.test	|#{generate(regexify '[A-Z]{1}[a-z]{5}')}|#{generate(regexify '[0-9]{5}[a-z]{5}')}|
